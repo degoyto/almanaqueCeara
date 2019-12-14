@@ -1,0 +1,55 @@
+
+.fundo{
+  background: rgb(16,27,47);
+  background: linear-gradient(180deg, rgba(16,27,47,1) 0%, rgba(27,41,68,1) 49%);
+  height:60px;
+  margin-top:30px;
+}
+/* menu */
+
+.menu{
+  display:flex;
+  
+  height:60px;
+}
+/* area da image */
+.image{
+  
+  height:60px;
+ 
+  width:50%;
+  margin-left:-15px;
+}
+/* imagem */
+.image img{
+  margin-top:-25px;
+  margin-left:-13px;
+  width:37.5%;
+}
+/* area do menu */
+.menuzinho{
+
+  
+  height:60px;
+  width:50%;
+}
+
+/* texto menu */
+.mr-auto a:hover{
+  
+  border-bottom: 5px solid #F14B31;
+  padding-bottom:0px;
+}
+.mr-auto a{
+  
+  font-size:22px;
+  margin-left:50px;
+  font-weight: 500;
+}
+.mr-auto a:first-child{
+  margin-left:0px;
+}
+
+
+
+  
