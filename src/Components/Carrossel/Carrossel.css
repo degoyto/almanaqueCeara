@@ -1,0 +1,75 @@
+
+
+.area{
+    display:flex;
+    width:100%;
+    background: rgb(16,27,47);
+    background: linear-gradient(180deg, rgba(16,27,47,1) 0%, rgba(27,41,68,1) 49%);
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+.imagemMaior{
+    width:50%;
+    position: relative;
+    height:60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-left:-14.8px;
+}
+.texto{
+    background-color:rgba(0,0,0,0.8);
+    width:100%;
+    position:absolute;
+    bottom:0px;
+    max-height:125px;
+    color:white;
+    padding-top:2px;
+    /* cima direita baixo esquerda*/
+    padding:2px 2px 2px 5px;
+     
+}
+.texto p{
+    font-size:13px;
+     
+}
+
+.outrasFotos{
+    width:50%;
+    
+    padding-top:12px;
+    padding-left:30px;
+    
+}
+.outrasFotos img{
+    width:35%;
+}
+.jogos{
+    width:100%;
+    display:flex;
+    
+    margin-bottom:10px;
+    color:white;
+}
+.jogos div{
+    margin-left:5px;
+}
+.jogos p{
+    font-size:10px;
+    margin-bottom:0px;
+    
+    
+}
+.jogos h3{
+    font-size:15px;
+    font-weight: bold;
+    
+    
+    
+}
+.jogos a{
+    
+    font-size:10px;
+}
+
