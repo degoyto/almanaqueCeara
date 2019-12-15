@@ -54,7 +54,7 @@ export default class Carrossel extends Component {
           </div>
         </div>
         <div className="outrasFotos">
-          <div class="jogos" onClick={() => this.mudar(0)}>
+          <div className="jogos" onClick={() => this.mudar(0)}>
             <img src="https://i.ytimg.com/vi/nOKm1fIFiIY/maxresdefault.jpg"/>
             <div>
               <h3>{info.titulo[0]}</h3>
@@ -62,7 +62,7 @@ export default class Carrossel extends Component {
               <a href="#">Leia Mais</a>
             </div>
           </div>
-          <div class="jogos" onClick={() => this.mudar(1)}>
+          <div className="jogos" onClick={() => this.mudar(1)}>
             <img src="https://cinepop.com.br/wp-content/uploads/2019/07/mortal-kombat-animated-movie-750x380.jpg"/>
             <div>
               <h3>{info.titulo[1]}</h3>
@@ -70,7 +70,7 @@ export default class Carrossel extends Component {
               <a href="#">Leia Mais</a>
             </div>
           </div>
-          <div class="jogos" onClick={() => this.mudar(2)}>
+          <div className="jogos" onClick={() => this.mudar(2)}>
             <img src="https://ubistatic19-a.akamaihd.net/ubicomstatic/pt-br/global/search-thumbnail/search_thumbnail_rl-v2_mobile_138440.jpg"/>
             <div>
               <h3>{info.titulo[2]}</h3>
